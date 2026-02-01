@@ -44,7 +44,15 @@ All images are in PNG format and are organized into training, validation, and te
 The dataset includes thousands of labeled images, providing a strong foundation for training and evaluating deep learning models for pneumonia detection.
 
 
+## ⚙️ Data Preprocessing
 
+- Image resizing (224×224)
+- Normalization
+- Data augmentation:
+  - Rotation
+  - Zoom
+  - Horizontal flip
+  - Brightness adjustment
 
 
 
