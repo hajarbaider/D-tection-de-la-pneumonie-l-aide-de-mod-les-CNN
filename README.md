@@ -55,7 +55,7 @@ The dataset includes thousands of labeled images, providing a strong foundation 
   - Brightness adjustment
 
 ## 🏗️ System Architecture
-
+User → Web Interface → Flask Server → CNN Model → Prediction → Result
 
 
 
