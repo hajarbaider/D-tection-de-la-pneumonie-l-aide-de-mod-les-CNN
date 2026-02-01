@@ -86,7 +86,7 @@ After comparison, the best performing model was selected based on:
 - F1-Score
 - Confusion Matrix
 
-EfficientNet achieved the best overall performance.
+**EfficientNet** achieved the best overall performance.
 
 
 
