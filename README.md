@@ -17,7 +17,17 @@ This project compares multiple CNN architectures to identify the most efficient 
 - Provide AI-assisted medical support
 
 
+## 🧠 Technologies Used
 
+| Category        | Technology |
+|-----------------|------------|
+| Programming     | Python     |
+| Deep Learning   | TensorFlow / Keras |
+| Machine Learning| Scikit-learn |
+| Backend         | Flask      |
+| Frontend        | HTML, CSS, Bootstrap |
+| Visualization   | Matplotlib |
+| Platform        | Google Colab |
 
 
 
