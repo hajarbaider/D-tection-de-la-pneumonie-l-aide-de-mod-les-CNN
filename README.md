@@ -95,7 +95,8 @@ After comparison, the best performing model was selected based on:
 ### Main Screens
 
 1. Home Page
-   <img width="600" height="265" alt="image" src="https://github.com/user-attachments/assets/f3b94602-2f0a-44f2-8750-2660de6cc7fe" />
+   ![image alt](https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN/blob/main/home.jpg?raw=true)
+   
  
 3. Login Page
    <img width="596" height="271" alt="image" src="https://github.com/user-attachments/assets/4234a7af-e292-453e-b21f-2f75ce5cc39a" />
