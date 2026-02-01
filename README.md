@@ -58,6 +58,13 @@ The dataset includes thousands of labeled images, providing a strong foundation 
 **User** → **Web Interface** → **Flask Server** → **CNN Model** → **Prediction** → **Result**
 
 
+### Workflow:
+
+1. User uploads X-ray image
+2. Image is preprocessed
+3. CNN model analyzes image
+4. Prediction is generated
+5. Result is displayed
 
 
 
