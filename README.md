@@ -66,7 +66,16 @@ The dataset includes thousands of labeled images, providing a strong foundation 
 4. Prediction is generated
 5. Result is displayed
 
+## 🧩 Models Implemented
 
+| Model        | Description |
+|--------------|-------------|
+| VGG16        | Deep CNN with small filters |
+| ResNet50     | Residual learning |
+| DenseNet121  | Dense connectivity |
+| EfficientNet | Optimized scaling |
+| CoroNet      | COVID-based CNN |
+| CovXNet      | Custom CNN |
 
 
 Clone the Repository
