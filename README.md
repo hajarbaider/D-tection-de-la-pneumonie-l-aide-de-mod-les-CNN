@@ -1,5 +1,6 @@
 # D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN
 
+# 🫁 Pneumonia Detection using CNN
 
 Clone the Repository
 
