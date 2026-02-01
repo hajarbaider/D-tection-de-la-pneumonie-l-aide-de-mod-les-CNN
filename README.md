@@ -142,4 +142,6 @@ git lfs install
 git lfs pull
 ```
 Run the Application
+```bash
 python app.py
+```
