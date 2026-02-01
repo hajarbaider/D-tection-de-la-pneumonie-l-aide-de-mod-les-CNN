@@ -97,11 +97,13 @@ EfficientNet achieved the best overall performance.
 1. Home Page
    <img width="600" height="265" alt="image" src="https://github.com/user-attachments/assets/f3b94602-2f0a-44f2-8750-2660de6cc7fe" />
  
-3. Login Page  
-4. Registration Page  
-5. Prediction Page  
-6. Result Page  
-7. Diagnostic Report Page  
+3. Login Page
+   <img width="596" height="271" alt="image" src="https://github.com/user-attachments/assets/4234a7af-e292-453e-b21f-2f75ce5cc39a" />
+ 
+5. Registration Page  
+6. Prediction Page  
+7. Result Page  
+8. Diagnostic Report Page  
 
 
 
