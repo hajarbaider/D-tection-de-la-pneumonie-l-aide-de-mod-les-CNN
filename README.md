@@ -77,7 +77,16 @@ The dataset includes thousands of labeled images, providing a strong foundation 
 | CoroNet      | COVID-based CNN |
 | CovXNet      | Custom CNN |
 
+## 🏆 Best Model Selection
 
+After comparison, the best performing model was selected based on:
+
+- Accuracy
+- Recall
+- F1-Score
+- Confusion Matrix
+
+EfficientNet achieved the best overall performance.
 Clone the Repository
 
 To clone this repository, use:
