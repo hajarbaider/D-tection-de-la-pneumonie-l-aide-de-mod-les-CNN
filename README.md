@@ -137,9 +137,9 @@ cd D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN
 ### 2.Download Large Files (Model)
 
 This project uses Git LFS for large files (the .h5 model):
-
+```bash
 git lfs install
 git lfs pull
-
+```
 Run the Application
 python app.py
