@@ -94,12 +94,14 @@ EfficientNet achieved the best overall performance.
 
 ### Main Screens
 
-1. Home Page  
-2. Login Page  
-3. Registration Page  
-4. Prediction Page  
-5. Result Page  
-6. Diagnostic Report Page  
+1. Home Page
+   <img width="600" height="265" alt="image" src="https://github.com/user-attachments/assets/f3b94602-2f0a-44f2-8750-2660de6cc7fe" />
+ 
+3. Login Page  
+4. Registration Page  
+5. Prediction Page  
+6. Result Page  
+7. Diagnostic Report Page  
 
 
 
