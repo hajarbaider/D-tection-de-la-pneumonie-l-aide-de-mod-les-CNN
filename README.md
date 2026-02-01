@@ -31,6 +31,18 @@ This project compares multiple CNN architectures to identify the most efficient 
 
 ## 📊 Dataset
 
+This project uses the **Chest X-Ray Images (Pneumonia)** dataset available on Kaggle.
+
+The dataset contains chest radiography images classified into three categories:
+
+- Bacterial Pneumonia  
+- Viral Pneumonia  
+- Normal (Healthy)
+
+All images are in PNG format and are organized into training, validation, and test sets.
+
+The dataset includes thousands of labeled images, providing a strong foundation for training and evaluating deep learning models for pneumonia detection.
+
 
 
 
