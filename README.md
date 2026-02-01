@@ -125,13 +125,14 @@ After comparison, the best performing model was selected based on:
 
 
 
+## 🚀 Installation
 
-Clone the Repository
+### 1. Clone Repository
 
-To clone this repository, use:
-
+```bash
 git clone https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN.git
 cd D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN
+```
 
 Download Large Files (Model)
 
