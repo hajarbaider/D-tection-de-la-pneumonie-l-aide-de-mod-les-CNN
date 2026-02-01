@@ -7,6 +7,30 @@ This project focuses on the automatic detection of pneumonia from chest X-ray im
 The objective is to assist medical professionals by providing a reliable and fast diagnostic support system.
 
 This project compares multiple CNN architectures to identify the most efficient model for pneumonia classification.
+
+## 🎯 Objectives
+
+- Automate pneumonia detection from X-ray images
+- Compare different CNN architectures
+- Improve diagnostic accuracy
+- Develop a user-friendly web interface
+- Provide AI-assisted medical support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Clone the Repository
 
 To clone this repository, use:
