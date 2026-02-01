@@ -87,6 +87,33 @@ After comparison, the best performing model was selected based on:
 - Confusion Matrix
 
 EfficientNet achieved the best overall performance.
+
+
+
+## 🖥️ Application Interface
+
+### Main Screens
+
+1. Home Page  
+2. Login Page  
+3. Registration Page  
+4. Prediction Page  
+5. Result Page  
+6. Diagnostic Report Page  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Clone the Repository
 
 To clone this repository, use:
