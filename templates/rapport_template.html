@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport de Prédiction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* En-tête avec logo centré */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            max-width: 120px;
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            color: #343a40;
+            margin-top: 20px;
+        }
+
+        /* Contenu principal */
+        .content {
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            color: #007bff;
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+
+        .results p {
+            font-size: 1.1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        /* Image du résultat */
+        .result-image {
+            margin-top: 20px;
+            border: 5px solid #007bff;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Pied de page */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Bouton de téléchargement */
+        .download-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+            display: block;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête avec logo centré -->
+    <div class="header">
+        <img src="{{ logo }}" class="logo" alt="Logo">
+        <h1>Rapport de Prédiction de Pneumonie</h1>
+    </div>
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <h2>Résultats de la Prédiction :</h2>
+        <div class="results">
+            <img src="{{ image }}" width="300" class="img-fluid">
+            <p><strong>Selon l’analyse du modèle, cette image montre des signes compatibles avec une</strong> {{ result }}</p>
+            <p><strong>avec une confiance estimée à </strong> {{ probability }}%</p>
+            
+        </div>
+
+        <!-- Image du résultat -->
+        <img src="{{ image_url }}" class="result-image" alt="Image du résultat">
+
+        <!-- Bouton de téléchargement du rapport -->
+        <a href="{{ download_link }}" class="download-btn">Télécharger le Rapport</a>
+    </div>
+
+    <!-- Pied de page -->
+    <div class="footer">
+        <p>Rapport généré par votre application de détection de pneumonie.</p>
+    </div>
+</body>
+</html>

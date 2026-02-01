@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Detection</title>
+    <!-- Lien vers Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='images/logo3.webp') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .navbar-brand img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 80px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #343a40;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .btn-primary {
+            background-color: transparent;
+            border: 2px solid #0d0d0e; /* Bordure bleue */
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: #282b2e; /* Texte bleu */
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .btn-primary:hover {
+            background-color: #030303;
+            color: white;
+            border-color: #474c52;
+        }
+
+        .highlight-text {
+            font-size: 1.5rem;
+            color: #001f3d; /* Bleu marine */
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .center-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ url_for('static', filename='images/log.gif') }}" alt="Logo" class="rounded-circle">
+                Pneumonia Detection
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Se connecter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container">
+        <h2>Bienvenue sur Pneumonia Detector</h2>
+        <p class="highlight-text"><strong>Protégez vos poumons, préservez votre respiration.</strong></p>
+    </div>
+
+    <!-- Bouton centré -->
+    <div class="center-button">
+        <a href="{{ url_for('login') }}" class="btn btn-primary">Se connecter</a>
+    </div>
+
+</body>
+</html>
