@@ -99,7 +99,7 @@ After comparison, the best performing model was selected based on:
    
  
 3. Login Page
-      ![image alt](<img width="596" height="271" alt="image" src="https://github.com/user-attachments/assets/4234a7af-e292-453e-b21f-2f75ce5cc39a" />)
+      ![image alt](https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN/blob/main/Connexion.jpg?raw=true)
  
 5. Registration Page
    <img width="609" height="311" alt="image" src="https://github.com/user-attachments/assets/b0183b26-6953-48fb-939e-884b431c7dd0" />
