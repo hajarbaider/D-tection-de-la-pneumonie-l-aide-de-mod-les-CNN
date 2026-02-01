@@ -111,7 +111,8 @@ After comparison, the best performing model was selected based on:
     ![image alt](https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN/blob/main/R%C3%A9sultat%20de%20Pr%C3%A9diction.jpg?raw=true)
 
 11. Diagnostic Report Page
-    <img width="600" height="216" alt="image" src="https://github.com/user-attachments/assets/8e57d0b5-cb6c-43a9-a0d5-29401456234a" />
+     ![image alt](https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN/blob/main/Rapport%20d%C3%A9taill%C3%A9%20du%20diagnostic.png?raw=true)
+ 
 
 
 
