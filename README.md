@@ -134,7 +134,7 @@ git clone https://github.com/hajarbaider/D-tection-de-la-pneumonie-l-aide-de-mod
 cd D-tection-de-la-pneumonie-l-aide-de-mod-les-CNN
 ```
 
-Download Large Files (Model)
+### 2.Download Large Files (Model)
 
 This project uses Git LFS for large files (the .h5 model):
 
